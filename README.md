@@ -5,8 +5,8 @@
 <hr>
 
 ### Pasta: Formulário-2
-![preview](./.github/form1.png)
+![preview](.github/form1.png)
 
 ### Pasta: Formulário-1
-![preview](./.github/form2.png)
+![preview](.github/form2.png)
 
