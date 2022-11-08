@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
+
+    <title>Avaliação de mentoria</title>
+</head>
+
+<body>
+
+    <div id="page">
+        <header>
+            <h1>AVALIE SUA MENTORIA</h1>
+            <p>Chegou a hora de avaliar o seu mentor. Bora lá?</p>
+            <img src="./assets/logo.svg" alt="">
+        </header>
+
+        <form id="my-form">
+            <fieldset>
+                <legend class="first-legend">INFORMAÇÕES PESSOAIS</legend>
+
+                <div class="fieldset-wrapper">
+                    <div class="col-2">
+                        <div class="input-wrapper">
+                            <label for="name">Nome</label>
+                            <input type="text" name="" id="name">
+                        </div>
+
+                        <div class="input-wrapper">
+                            <label for="last-name">Sobrenome</label>
+                            <input type="text" name="" id="last-name">
+                        </div>
+                    </div>
+
+                    <div class="input-wrapper">
+                        <label for="email">Email<span>(digite um email)</span></label>
+                        <input type="email" id="email">
+                    </div>
+                </div>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>INFORMAÇÕES DO MENTOR</legend>
+
+                <div class="input-wrapper">
+                    <label for="which-mentor">Selecione quem foi seu mentor</label>
+                    <select id="which-mentor">
+                        <option>Mayk Brito</option>
+                        <option>Diego Fernandes</option>
+                        <option>Rodrigo Gonçalves</option>
+                        <option>Jakeliny Gracielly</option>
+                    </select>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="">Feedback sobre o mentor</label>
+                    <textarea id=""></textarea>
+                </div>
+
+                <div class="checkbox-wrapper">
+                    <input type="checkbox" id="checkbox">
+                    <label for="checkbox">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>AGENDADO PRÓXIMA MENTORIA</legend>
+                <div class="col-3">
+                    <div class="input-wrapper">
+                        <label for="date">Data<span>(DD/MM/AAAA)</span></label>
+                        <input type="date" id="date">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="start-time">Das</label>
+                        <input type="time" id="start-time">
+                    </div>
+                    <div class="input-wrapper">
+                        <label for="end-time">Até</label>
+                        <input type="time" id="end-time">
+                    </div>
+                </div>
+            </fieldset>
+
+            <input type="button" id="button" form="my-form" value="SALVAR">
+
+        </form>
+
+    </div>
+
+
+</body>
+
+</html>
