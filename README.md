@@ -4,9 +4,9 @@
 
 <hr>
 
-<p>
-    <h2><strong>Pasta: Formulário-2</strong></h2>
-  <img src=".github/form1.png" width="70%">
-    <h2><strong><span>Pasta: Formulário-1</strong></h2>
-  <img src=".github/form2.png" width="70%">
-</p>
+### Pasta: Formulário-2
+![preview](./.github/form1.png)
+
+### Pasta: Formulário-1
+![preview](./.github/form2.png)
+
