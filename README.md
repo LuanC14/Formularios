@@ -4,10 +4,10 @@
 
 <hr>
 
-### Pasta: Formulário-2
+### Pasta: Form-2
 ![preview](./Form-2/.github/form2.PNG)
 
 
-### Pasta: Formulário-1
+### Pasta: Form-1
 ![preview](./Form-1/.github/form1.PNG)
 
